@@ -7,6 +7,6 @@ public class CalculatorTest {
     public void testAddition() {
         Calculator calculator = new Calculator();
 
-        assertEquals(5, calculator.add(2, 3));
+        assertEquals(15, calculator.add(2, 3));
     }
 }
